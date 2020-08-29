@@ -1,0 +1,39 @@
+sum = 0
+i = 0
+while True:
+
+    print("Please enter amount Or Press QUIT to exit")
+    user_input = input("Price is : ")
+    if user_input != "QUIT":
+        sum = sum + int(user_input)
+        i = i + 1
+        print(f"Item No is : {i} and sum is : {sum}")
+
+    else:
+        print("Thanks for visiting Store.")
+        
+        
+Please enter amount Or Press QUIT to exit
+Price is : 2
+Item No is : 1 and sum is : 2
+Please enter amount Or Press QUIT to exit
+Price is : 3
+Item No is : 2 and sum is : 5
+Please enter amount Or Press QUIT to exit
+Price is : 5
+Item No is : 3 and sum is : 10
+Please enter amount Or Press QUIT to exit
+Price is : 4
+Item No is : 4 and sum is : 14
+Please enter amount Or Press QUIT to exit
+Price is : 8
+Item No is : 5 and sum is : 22
+Please enter amount Or Press QUIT to exit
+Price is : 7
+Item No is : 6 and sum is : 29
+Please enter amount Or Press QUIT to exit
+Price is : QUIT
+Thanks for visiting Store.
+Total Item is : 6 and Sum is : 29
+
+Process finished with exit code 0
