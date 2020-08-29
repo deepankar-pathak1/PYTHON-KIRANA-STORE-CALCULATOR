@@ -1,0 +1,45 @@
+sum = 0
+while True:
+    print("Enter Item Price \nOR Type QUIT to exit")
+    user_input = input("Price is : ")
+    if user_input != "QUIT":
+        sum = sum + int(user_input)
+        print(f"Total of Item Price is : {sum}")
+    else:
+        print(f"Thanks for Visiting Store\nYour Total Amount is {sum}")
+        break
+        
+        
+        
+        
+Enter Item Price 
+OR Type QUIT to exit
+Price is : 54
+Total of Item Price is : 54
+Enter Item Price 
+OR Type QUIT to exit
+Price is : 32
+Total of Item Price is : 86
+Enter Item Price 
+OR Type QUIT to exit
+Price is : 010
+Total of Item Price is : 96
+Enter Item Price 
+OR Type QUIT to exit
+Price is : 100
+Total of Item Price is : 196
+Enter Item Price 
+OR Type QUIT to exit
+Price is : 100
+Total of Item Price is : 296
+Enter Item Price 
+OR Type QUIT to exit
+Price is : 100
+Total of Item Price is : 396
+Enter Item Price 
+OR Type QUIT to exit
+Price is : QUIT
+Thanks for Visiting Store
+Your Total Amount is 396
+
+Process finished with exit code 0
