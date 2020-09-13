@@ -1,0 +1,35 @@
+def add(x,y):
+    return x + y;
+def sub(x,y):
+    return x - y;
+def mul(x,y):
+    return x * y;
+def div(x,y):
+    return x / y;
+
+# print(f"Addition of NUmber 5 and 10 is : {add(5,10)}")
+# print(f"Substraction of Number 15 and 10 is : {sub(15,10)}")
+# print(f"Multiplication of Number 5 and 5 is : {mul(5,5)}")
+# print(f"Division of Number 15 and 5 is : {div(15,5)}")
+print("Enter 1 for Addition\nEnter 2 for Substraction\nEnter 3 for Multiplication\nEnter 4 for Division")
+
+
+a = int(input("Enter your Choice : "))
+x = float(input("Enter Number 1 : "))
+y = float(input("Enter Number 2 : "))
+
+if a == 1:
+    print(f"Addition of NUmber {x} and {y} is : {add(x, y)}")
+
+
+elif a == 2:
+    print(f"Substraction of Number {x} and {y} is : {sub(x, y)}")
+
+elif a == 3:
+    print(f"Multiplication of Number {x} and {y} is : {mul(x, y)}")
+
+elif a == 4:
+    print(f"Division of Number {x} and {y} is : {div(x, y)}")
+
+else:
+    print("Please Enter Valid Number :) ")
